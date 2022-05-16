@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">quicklists</string>
+    <string name="title_activity_main">quicklists</string>
+    <string name="package_name">com.indysmittysmith.quicklists</string>
+    <string name="custom_url_scheme">com.indysmittysmith.quicklists</string>
+</resources>

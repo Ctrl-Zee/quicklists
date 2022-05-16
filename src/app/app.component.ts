@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
-import {Plugins} from '@capacitor/core';
-
-// eslint-disable-next-line @typescript-eslint/naming-convention
-const { SplashScreen, StatusBar } = Plugins;
-
+import { SplashScreen } from '@capacitor/splash-screen';
+import { StatusBar } from '@capacitor/status-bar';
 
 @Component({
   selector: 'app-root',
@@ -16,12 +13,11 @@ export class AppComponent {
   }
 
   async initializeApp() {
-    // SplashScreen.hide().catch((err) => {
-    //   console.warn(err);
-    // });
-
-    // StatusBar.setBackgroundColor({ color: '#2dd36f'}).catch(err => {
-    //   console.warn(err);
-    // });
+    SplashScreen.hide().catch((err) => {
+      console.warn(err);
+    });
+    StatusBar.setBackgroundColor({ color: '#2dd36f' }).catch((err) => {
+      console.warn(err);
+    });
   }
 }

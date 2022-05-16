@@ -1,0 +1,6 @@
+{
+	"appId": "com.indysmittysmith.quicklists",
+	"appName": "quicklists",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
