@@ -16,8 +16,8 @@ export class AppComponent {
     SplashScreen.hide().catch((err) => {
       console.warn(err);
     });
-    StatusBar.setBackgroundColor({ color: '#2dd36f' }).catch((err) => {
-      console.warn(err);
-    });
+    // StatusBar.setBackgroundColor({ color: '#2dd36f' }).catch((err) => {
+    //   console.warn(err);
+    // }); //* uncomment this when we deploy to a device
   }
 }
